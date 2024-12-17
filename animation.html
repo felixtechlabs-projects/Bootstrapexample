@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- CSS Code -->
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            animation-name: demo;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-fill-mode: both;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            position: absolute;
+            /* Safari */
+            -webkit-animation-name: demo;
+            -webkit-animation-duration: 4s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-fill-mode: both;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-direction: alternate;
+            /* Mozilla */
+            -moz-animation-name: demo;
+            -moz-animation-duration: 4s;
+            -moz-animation-iteration-count: infinite;
+            -moz-animation-fill-mode: both;
+            -moz-animation-timing-function: linear;
+            -moz-animation-direction: alternate;
+            /* Opera */
+            -o-animation-name: demo;
+            -o-animation-duration: 4s;
+            -o-animation-iteration-count: infinite;
+            -o-animation-fill-mode: both;
+            -o-animation-timing-function: linear;
+            -o-animation-direction: alternate;
+        }
+
+        @-webkit-keyframes demo {
+
+        }
+
+        @-moz-keyframes demo {
+
+        }
+        @-o-keyframes demo {
+
+        }
+
+        @keyframes demo {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 300px;
+                top: 0px;
+            }
+
+            50% {
+                left: 300px;
+                top: 300px;
+            }
+
+            75% {
+                left: 0px;
+                top: 300px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+
+
+
+        /* @keyframes demo {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color: blue;
+            }
+        } */
+
+    </style>
+
+    <!-- HTML Code -->
+
+    <div class="box"></div>
+
+</body>
+</html>
